@@ -1,0 +1,9 @@
+# Auto-generated — do not commit
+.env
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+dist/
+.vscode/
+*.log
