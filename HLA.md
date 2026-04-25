@@ -18,8 +18,8 @@
 |---|---|---|
 | 1.1 | Set up monorepo (React Vite frontend + Python FastAPI backend + Azure Functions) | ✅ Done |
 | 1.2 | Provision Azure resources via Bicep (Blob, Cosmos, AI Vision, OpenAI, Functions, App Service, SignalR, AI Search, Monitoring) | ✅ Done |
-| 1.3 | Auth with Microsoft Entra ID (Admin vs. User roles) | ⬜ Not started |
-| 1.4 | CI/CD pipeline (GitHub Actions → Azure) | ⬜ Not started |
+| 1.3 | Auth with Microsoft Entra ID (Admin vs. User roles) | ✅ Done |
+| 1.4 | CI/CD pipeline (GitHub Actions → Azure) | ✅ Done |
 
 ---
 
@@ -27,9 +27,9 @@
 
 | # | Story | Status | Notes |
 |---|---|---|---|
-| 2.1 | Admin upload UI (drag & drop video) | ⬜ Not started | Upload to Blob Storage with SAS tokens |
-| 2.2 | Azure Function: extract keyframes from video | ⬜ Not started | FFmpeg in container; triggered by Blob event |
-| 2.3 | Store frames in Blob, metadata in Cosmos SQL | ⬜ Not started | Frame index, timestamp, blob URI |
+| 2.1 | Admin upload UI (drag & drop video) | ✅ Done | Drag & drop + progress polling |
+| 2.2 | Azure Function: extract keyframes from video | ✅ Done | FFmpeg; blob trigger; Cosmos status updates |
+| 2.3 | Store frames in Blob, metadata in Cosmos SQL | ✅ Done | Cosmos service with videos + frames containers |
 
 ---
 
